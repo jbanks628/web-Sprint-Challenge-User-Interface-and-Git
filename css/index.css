@@ -57,6 +57,7 @@ nav a{
     text-decoration:none;
    color:black;
    padding-top:3%;
+   font-family: 'Roboto', sans-serif;
 }
 
 }
@@ -73,6 +74,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -244,4 +246,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*About page CSS*/
+.p1{
+    padding-bottom:20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
