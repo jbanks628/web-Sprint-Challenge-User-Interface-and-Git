@@ -247,9 +247,59 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
 /*About page CSS*/
+
+
 .p1{
     padding-bottom:20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.section1{
+    display:flex;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.strategy{
+    padding-top:2%;
+}
+.strategy1{
+    padding-bottom:4%;
+}
+button{
+    border-radius:8px;
+    padding:1.5% 5%;
+    text-align:center;
+    background:white;
+    border:2px solid black;
+}
+.how{
+    padding-top:2%;
+}
+.how1{
+    padding-bottom: 4%;
+}
+.places{
+    padding-top:2%;
+}
+.places1{
+    padding-bottom: 4%;
+}
+.collab{
+    padding-top:2%;
+}
+.collab1{
+    padding-bottom: 4%;
+}
+.section2{
+    display:flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom:20px;
+}
+.lets{
+    padding-top:6%;
 }
