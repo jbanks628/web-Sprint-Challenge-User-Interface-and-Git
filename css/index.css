@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border:0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -31,26 +31,36 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 * {
     box-sizing: border-box;
 }
+header{
+    max-width: 800px;
+    margin-left:16%;
+    
+}
+nav{
+   display:flex;
+   justify-content:space-between;
+   padding:3% 5% 5% 0%;
+   align-items:center;
+}
+.road{
+    margin:2% 10;
+    padding-bottom:3%;
+}
+.road img{
+    width:800px
+}
+nav a{
+    text-decoration:none;
+   color:black;
+   padding-top:3%;
+   font-family: 'Roboto', sans-serif;
+}
 
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -64,6 +74,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -101,16 +112,107 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4{
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .bottom-content {
     display: flex;
@@ -129,6 +231,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top:12%;
 }
 
 footer nav {
@@ -143,4 +246,60 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*About page CSS*/
+
+
+.p1{
+    padding-bottom:20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.section1{
+    display:flex;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.strategy{
+    padding-top:2%;
+}
+.strategy1{
+    padding-bottom:4%;
+}
+button{
+    border-radius:8px;
+    padding:1.5% 5%;
+    text-align:center;
+    background:white;
+    border:2px solid black;
+}
+.how{
+    padding-top:2%;
+}
+.how1{
+    padding-bottom: 4%;
+}
+.places{
+    padding-top:2%;
+}
+.places1{
+    padding-bottom: 4%;
+}
+.collab{
+    padding-top:2%;
+}
+.collab1{
+    padding-bottom: 4%;
+}
+.section2{
+    display:flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom:20px;
+}
+.lets{
+    padding-top:6%;
 }
